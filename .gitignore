@@ -1,0 +1,22 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Kaggle data and generated outputs
+/data/
+/facial-keypoints-detection.zip
+/submission.csv
+/submission-*.csv
+/landmarks.png
+*.pt
+*.pth
+
+# Credentials and local configuration
+.env
+.env.*
+kaggle.json
+.DS_Store
